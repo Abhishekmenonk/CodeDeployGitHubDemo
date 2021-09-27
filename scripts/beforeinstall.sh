@@ -1,4 +1,4 @@
 #!/bin/sh
-yum update
-yum install -y httpd
+apt update
+apt-get install -y httpd
 service httpd start
